@@ -1,0 +1,49 @@
+# Data — WESAD raw data is large and subject to access restrictions
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Results / outputs (reproducible from code — don't commit)
+results_rf.csv
+results_cnn.csv
+results_transformer.csv
+ablation_per_subject.csv
+ablation_summary.csv
+ablation_bvp_eda.csv
+ablation_rf_summary.csv
+ablation_rf_per_subject.csv
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
